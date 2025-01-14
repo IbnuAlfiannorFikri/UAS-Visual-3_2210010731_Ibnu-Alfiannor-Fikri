@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>451</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="5" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lbl_id_domisili">
+      <property name="text">
+       <string>ID Domisili</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lbl_nama_partai_politik">
+      <property name="text">
+       <string>Nama Partai Politik</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="edit_id_domisili"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="edit_nama_partai_politik"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lbl_domisili">
+      <property name="text">
+       <string>Domisili</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="edit_domisili"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lbl_alamat">
+      <property name="text">
+       <string>Alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="edit_alamat"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="edit_nama_pengurus"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lbl_nama_pengurus">
+      <property name="text">
+       <string>Nama Pengurus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="btn_submit">
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
